@@ -1,0 +1,76 @@
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+/* shared style*/
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+background: rgb(253, 110, 10);
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 20px;
+border: none;
+}
+/*nav style*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+.navtitle{
+font-size: 45px;
+font-weight: 800;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+ul li a {
+    text-decoration: none;
+   
+    font-size: 20px;
+}
+.header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    
+    
+}
+/*banner style*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.content-grettings{
+    font-size: 45px;
+}
+.content-title{
+    font-size: 85px;
+    font-weight: bold;
+
+}
+.content-description{
+    font-size: 30px;
+   font-weight: 300;
+   width: 700px;
+   
+}
